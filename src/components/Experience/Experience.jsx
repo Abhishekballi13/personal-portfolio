@@ -1,8 +1,6 @@
 import { FaCss3Alt,FaHtml5,FaJs, FaReact } from "react-icons/fa";
-import { FaGoogle } from "react-icons/fa";
-import { FaAmazon } from "react-icons/fa";
 import { SiMongodb, SiRedis } from "react-icons/si";
-import { RiNetflixFill } from "react-icons/ri";
+import psitImg from "../../assets/psit-logo-1.jpeg";
 
 const Experience = () => {
   return (
@@ -53,7 +51,7 @@ const Experience = () => {
                </span>
             </div>
             <div className="flex gap-5 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
-               <img className="w-30 h-20 rounded-lg bg-transparent object-cover" src="https://www.psit.ac.in/assets/webp/psit-logos/psit-logo-1.jpeg"/>
+               <img className="w-30 h-20 rounded-lg bg-transparent object-cover" src={psitImg}/>
                <span className="text-white">
                  <h2 className="leading-tight">Bachelor Of Technology, Computer Science</h2>
                  <p className="text-sm leading-tight font-thin">Dec 2020 - Jul 2024</p>
