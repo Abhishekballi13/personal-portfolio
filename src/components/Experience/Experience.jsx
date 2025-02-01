@@ -30,18 +30,40 @@ const Experience = () => {
                 </span>
             </div>
             <div className="">
-            <div className="flex gap-10 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
-               <FaGoogle color="#4285F4" size={50}/>
+            <div className="flex gap-5 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
+               <img className="w-30 h-20 rounded-lg" src="https://toppng.com/uploads/preview/nucleus-software-logo-11609370525scxmzzrjnf.png"/>
                <span className="text-white">
-                 <h2 className="leading-tight">Software Engineer, Google</h2>
-                 <p className="text-sm leading-tight font-thin">Sept 2023 - Present</p>
+                 <h2 className="leading-tight">Software Engineer, Nucleus Software</h2>
+                 <p className="text-sm leading-tight font-thin">Feb 2024 - Aug 2024</p>
                  <ul className="text-sm p-2">
                     <li>- Work as Software developer</li>
-                    <li>- Senior SDE developer</li>
+                    <li>- Associate Software Engineer</li>
                  </ul>
                </span>
             </div>
-            <div className="flex gap-10 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
+            <div className="flex gap-5 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
+               <img className="w-30 h-20 rounded-lg bg-transparent object-cover" src="https://banner2.cleanpng.com/20180802/xri/5c06c331d802e115c4f41577cf477ba0.webp"/>
+               <span className="text-white">
+                 <h2 className="leading-tight">Cloud Virtual Experience Program</h2>
+                 <p className="text-sm leading-tight font-thin">May 2022 - June 2022</p>
+                 <ul className="text-sm p-2">
+                    <li>- basics of Cloud Computing </li>
+                    <li>- hands on AWS services</li>
+                 </ul>
+               </span>
+            </div>
+            <div className="flex gap-5 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
+               <img className="w-30 h-20 rounded-lg bg-transparent object-cover" src="https://www.psit.ac.in/assets/webp/psit-logos/psit-logo-1.jpeg"/>
+               <span className="text-white">
+                 <h2 className="leading-tight">Bachelor Of Technology, Computer Science</h2>
+                 <p className="text-sm leading-tight font-thin">Dec 2020 - Jul 2024</p>
+                 <ul className="text-sm p-2">
+                    <li>- Completed my graduation from Computer Science</li>
+                    <li>- GPA :- 8.3</li>
+                 </ul>
+               </span>
+            </div>
+            {/* <div className="flex gap-10 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
                <RiNetflixFill color="#E50914" size={50}/>
                <span className="text-white">
                  <h2 className="leading-tight">Software Engineer, Netflix</h2>
@@ -51,8 +73,8 @@ const Experience = () => {
                     <li>- Senior SDE developer</li>
                  </ul>
                </span>
-            </div>
-            <div className="flex gap-10 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
+            </div> */}
+            {/* <div className="flex gap-10 bg-slate-950 bg-opacity mt-4 rounded-lg p-4 items-center">
                <FaAmazon color="#FF9900" size={50}/>
                <span className="text-white">
                  <h2 className="leading-tight">Software Engineer, Amazon</h2>
@@ -62,7 +84,7 @@ const Experience = () => {
                     <li>- Senior SDE developer</li>
                  </ul>
                </span>
-            </div>
+            </div> */}
             </div>
         </div>
     </div>
