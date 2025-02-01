@@ -11,9 +11,11 @@ const Footer = () => {
             <h3 className="text-2xl md:text-2xl font-normal">Feel Free To Reach Out!</h3>
         </div>
         <ul className="text-sm md:text-xl">
-            <li className="flex gap-1 items-center"><MdOutlineEmail size={20}/>abhishekdvd404@gmail.com</li>
-            <li className="flex gap-1 items-center"><CiLinkedin size={20}/>linkedin.com/Abhishek</li>
-            <li className="flex gap-1 items-center"><FaGithub size={20}/>github.com/Abhishek</li>
+           {/* rel="noopener noreferrer": Provides security by preventing the new tab from accessing the original page. */}
+           <a href="mailto:abhishekdvd404@gmail.com" rel="noopener noreferrer"><li className="flex gap-1 items-center"><MdOutlineEmail size={20}/>abhishekdvd404@gmail.com</li></a> 
+           {/* target blank for opening it in new tab */}
+           <a href="https://www.linkedin.com/in/abhishek-dwivedi-b18242221" target="blank"><li className="flex gap-1 items-center"><CiLinkedin size={20}/><a>linkedin.com/Abhishek</a></li></a> 
+           <a href="https://github.com/Abhishekballi13" target="blank"><li className="flex gap-1 items-center"><FaGithub size={20}/><a>github.com/Abhishek</a></li></a> 
         </ul>
     </div>
   )
