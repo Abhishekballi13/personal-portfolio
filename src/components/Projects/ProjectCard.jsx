@@ -3,8 +3,8 @@ import bannerImg from "../../assets/bannerImg.webp";
 const ProjectCard = ({title,main,link,bg_img}) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
-        {bg_img ? <img src={bg_img} className="my-9 rounded-lg" alt=""/> : <img src={bannerImg} className="rounded-lg my-2" alt=""/>}
-        <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
+        <img src={bg_img || bannerImg} className="rounded-lg w-full h-full"/>
+        <h3 className="px-4 mt-4 text-xl md:text-2xl font-bold leading-normal">
             {title}
         </h3>
         <p className="px-4 text-sm md:text-md leading-tight py-2">{main}</p>
