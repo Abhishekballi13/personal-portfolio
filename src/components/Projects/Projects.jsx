@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard"
+import netflixDemo from "../../assets/netflix-demo.png"
 
 const Projects = () => {
   return (
@@ -8,9 +9,14 @@ const Projects = () => {
             <ProjectCard title="Blogging Website" 
             main="this is a blogging website created in next js and used some component library and tailwind css for styling"/>
             <ProjectCard title="Youtube Clone" 
-            main="this is a blogging website created in next js and used some component library and tailwind css for styling"/>
-            <ProjectCard title="Netflix Clone" 
-            main="this is a blogging website created in next js and used some component library and tailwind css for styling"/>
+            main="this is a blogging website created in next js and used some component library and tailwind css for styling"
+              link="https://youtube-proj.vercel.app/"
+            />
+            <ProjectCard title="Netflix-GPT" 
+            main="this is a blogging website created in next js and used some component library and tailwind css for styling"
+            link="https://netflix-gpt-rho-two.vercel.app/"
+            bg_img={netflixDemo}
+            />
         </div>
     </div>
   )
