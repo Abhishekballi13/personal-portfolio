@@ -1,6 +1,8 @@
 import ProjectCard from "./ProjectCard"
 import netflixDemo from "../../assets/netflix-demo.png"
 import youtubeDemo from "../../assets/youtube-proj-thumbnail.png"
+import foodGenieDemo from "../../assets/foor-genie-demo.png"
+
 const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white">
@@ -16,9 +18,14 @@ const Projects = () => {
               bg_img={youtubeDemo}
             />
             <ProjectCard title="Netflix-GPT" 
-            main="this is a blogging website created in next js and used some component library and tailwind css for styling"
+            main="this is a video streaming website created in react js and used some component library and tailwind css for styling"
             link="https://netflix-gpt-rho-two.vercel.app/"
             bg_img={netflixDemo}
+            />
+            <ProjectCard title="Food-Genie" 
+            main="this is a food ordering website created in react js,with awesome features of search,config driven ui and more...."
+            link="https://food-genie.vercel.app/"
+            bg_img={foodGenieDemo}
             />
         </div>
     </div>
