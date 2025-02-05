@@ -16,7 +16,7 @@ a fresh graduate to grow while fulfilling organizational goals</p>
             {/* <div id="About" className="text-white mt-20 md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black
     shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"></div> */}
 
-          <div className="mt-20 group relative w-80 p-6 bg-white shadow-lg rounded-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+          <div className="mt-20 group relative w-80 p-6 bg-white shadow-lg rounded-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hidden md:block">
             {/* Animated Border Effect */}
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
