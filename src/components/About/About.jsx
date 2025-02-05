@@ -13,27 +13,27 @@ const About = () => {
                     <div className="flex gap-3 py-4">
                     <FaArrowRight size={30}/>
                         <span className="w-96">
-                            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Frontend Developer</h1>
+                            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Education</h1>
                             <p className="text-sm md:text-md leading-tight">
-                                Ullamco laboris voluptate eiusmod irure elit laborum dolore esse consequat qui laborum. Ex mollit reprehenderit consectetur anim fugiat tempor id ea. Irure amet commodo exercitation reprehenderit ut occaecat Lorem deserunt quis sint irure nulla.
+                            I completed my Bachelor of Technology in Computer Science and Engineering in July 2024, graduating with an 8.2 GPA. During my academic journey, I built a strong foundation in software development and problem-solving. My passion for technology drove me to participate in hackathons and internships, where I honed my technical skills through real-world applications.
                             </p>
                         </span>
                     </div>
                     <div className="flex gap-3 py-4">
                     <FaArrowRight size={30}/>
                         <span className="w-96">
-                            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Backend Developer</h1>
+                            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Frontend Development</h1>
                             <p className="text-sm md:text-md leading-tight">
-                                Ullamco laboris voluptate eiusmod irure elit laborum dolore esse consequat qui laborum. Ex mollit reprehenderit consectetur anim fugiat tempor id ea. Irure amet commodo exercitation reprehenderit ut occaecat Lorem deserunt quis sint irure nulla.
-                            </p>
+                            I have hands-on experience with React.js, Tailwind CSS, HTML, Jest, and React Testing Library. I’ve developed several projects showcasing my frontend skills, which I’ve presented at hackathons and during my internship. These experiences helped me design intuitive and responsive user interfaces while ensuring high-quality code through testing frameworks.                            </p>
                         </span>
                     </div>
                     <div className="flex gap-3 py-4">
                     <FaArrowRight size={30}/>
                         <span className="w-96">
-                            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Cloud enthusiast</h1>
+                            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Cloud Computing</h1>
                             <p className="text-sm md:text-md leading-tight">
-                                Ullamco laboris voluptate eiusmod irure elit laborum dolore esse consequat qui laborum. Ex mollit reprehenderit consectetur anim fugiat tempor id ea. Irure amet commodo exercitation reprehenderit ut occaecat Lorem deserunt quis sint irure nulla.
+                            My interest in cloud technologies motivates me to continuously learn and experiment with deployment strategies and cloud infrastructure.
+                            I have experience of working on AWS with practical knowledge of deploying projects using services like EC2 instances and VPC architecture. I hold the Azure AZ-900 Cloud Fundamentals certification and am exploring Docker and Jenkins for CI/CD workflows.
                             </p>
                         </span>
                     </div>

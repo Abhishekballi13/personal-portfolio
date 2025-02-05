@@ -57,7 +57,7 @@ const Experience = () => {
                  <p className="text-sm leading-tight font-thin">Dec 2020 - Jul 2024</p>
                  <ul className="text-sm p-2">
                     <li>- Completed my graduation from Computer Science</li>
-                    <li>- GPA :- 8.3</li>
+                    <li>- GPA :- 8.2</li>
                  </ul>
                </span>
             </div>
