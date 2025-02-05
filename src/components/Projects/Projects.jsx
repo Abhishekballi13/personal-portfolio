@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard"
 import netflixDemo from "../../assets/netflix-demo.png"
 import youtubeDemo from "../../assets/youtube-proj-thumbnail.png"
 import foodGenieDemo from "../../assets/foor-genie-demo.png"
+import bannerImg from "../../assets/bannerImg.webp";
 
 const Projects = () => {
   return (
@@ -11,6 +12,7 @@ const Projects = () => {
             <ProjectCard title="Crypto Exchange" 
             main="it is a crypto exchange website where user can view all the exchnages and coins listed in them ,in various currencies."
             link="https://crypto-exchange-six.vercel.app/"
+            bg_img={bannerImg}
             />
             <ProjectCard title="Youtube Clone" 
             main="this is a video streaming platform with awesome features of search,live chat,comments and much more..."
