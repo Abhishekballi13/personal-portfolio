@@ -1,9 +1,26 @@
+import { useState } from "react";
 import bannerImg from "../../assets/bannerImg.webp";
+import { useEffect } from "react";
+import {MICRO_API_URL} from "../../utils/constants";
 
-const ProjectCard = ({title,main,link,bg_img}) => {
+const ProjectCard = ({title,main,link}) => {
+
+  const [thumbnail,setThumbnail] = useState("");
+  
+  //logic for extracting our thumbnail from any website url we give from micro api
+  //by this we dont have to manually provide images for project it will fetch it.
+  useEffect(()=>{
+      const fetchThumbnail = async () => {
+        const response = await fetch(`${MICRO_API_URL}/?url=${link}&screenshot=true`);
+        const data = await response.json();
+        setThumbnail(data?.data?.screenshot?.url || bannerImg);
+      }
+      fetchThumbnail();
+  },[link])
+
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
-        <img src={bg_img || bannerImg} className="rounded-lg w-full h-full"/>
+        <img src={thumbnail} alt="Website Thumbnail" className="rounded-lg w-full h-full"/>
         <h3 className="px-4 mt-4 text-xl md:text-2xl font-bold leading-normal">
             {title}
         </h3>
