@@ -32,7 +32,7 @@ a fresh graduate to grow while fulfilling organizational goals</p>
             <p className="text-white text-lg font-semibold">
             <div className="flex">
             <Link className="text-white items-center"/>
-            <a href="https://drive.google.com/file/d/1m4oUVLBC43bjE3qjPFEpzd22v7XtB4g3/view?usp=sharing" target="blank">
+            <a href="https://drive.google.com/file/d/1jvlP7g2RZUr6ANYto0fMaAfCxvcRarJ-/view?usp=sharing" target="blank">
                 View Resume
               </a>
             </div>

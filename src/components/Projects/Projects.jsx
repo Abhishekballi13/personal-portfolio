@@ -6,6 +6,10 @@ const Projects = () => {
     <div id="Projects" className="p-10 md:p-24 text-white">
         <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
         <div className="py-12 px-11 flex flex-wrap gap-5">
+           <ProjectCard title="Connectify" 
+            main="A web platform for developers,where they can connect and chat with each other,premium features with subscription."
+            link="https://www.connectify.icu/"
+            />
             <ProjectCard title="Crypto Exchange" 
             main="it is a crypto exchange website where user can view all the exchnages and coins listed in them ,in various currencies."
             link="https://crypto-exchange-six.vercel.app/"
