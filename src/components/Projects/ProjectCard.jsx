@@ -19,7 +19,7 @@ const ProjectCard = ({title,main,link}) => {
   },[link])
 
   return (
-    <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
+    <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl hover:bg-transparent">
         <img src={thumbnail} alt="Website Thumbnail" className="rounded-lg w-full h-full"/>
         <h3 className="px-4 mt-4 text-xl md:text-2xl font-bold leading-normal">
             {title}

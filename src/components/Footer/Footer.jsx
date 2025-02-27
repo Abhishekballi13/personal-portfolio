@@ -5,10 +5,10 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id="Contact" className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center">
+    <div id="Contact" className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center space-x-4">
         <div>
             <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
-            <h3 className="text-2xl md:text-2xl font-normal">Feel Free To Reach Out!</h3>
+            <div className="hidden sm:block"><h3 className="text-2xl md:text-2xl font-normal">Feel Free To Reach Out!</h3></div>
         </div>
         <ul className="text-sm md:text-xl">
            {/* rel="noopener noreferrer": Provides security by preventing the new tab from accessing the original page. */}
