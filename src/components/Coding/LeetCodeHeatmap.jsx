@@ -73,7 +73,7 @@ const LeetCodeHeatmap = ({ username }) => {
                     "data-tooltip-content": `${value.count || 0} submissions on ${value.date}`,
                 })}
             />
-            <Tooltip id="heatmap-tooltip" place="top" effect/>
+            <Tooltip id="heatmap-tooltip" place="top" effect="solid"/>
         </div>
         </div>
     );
