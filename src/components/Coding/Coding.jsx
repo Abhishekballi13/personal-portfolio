@@ -20,7 +20,7 @@ const Coding = () => {
           <h2 className="text-xl font-semibold">LeetCode</h2>
           <p className="text-gray-400 text-sm">Problems Solved: 500+</p>
           <a
-            href="https://leetcode.com/your-profile"
+            href="https://leetcode.com/u/DVD_Mathadis/"
             target="_blank"
             className="mt-3 inline-block text-blue-400 hover:underline"
           >
@@ -39,7 +39,7 @@ const Coding = () => {
           <h2 className="text-xl font-semibold">GeeksforGeeks</h2>
           <p className="text-gray-400 text-sm">Problems Solved: 300+</p>
           <a
-            href="https://auth.geeksforgeeks.org/user/your-profile"
+            href="https://www.geeksforgeeks.org/user/abhishekdvd404/"
             target="_blank"
             className="mt-3 inline-block text-blue-400 hover:underline"
           >
@@ -59,7 +59,7 @@ const Coding = () => {
           <p className="text-gray-400 text-sm">Repositories: 50+</p>
           <p className="text-gray-400 text-sm">Contributions: 500+</p>
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/Abhishekballi13/"
             target="_blank"
             className="mt-3 inline-block text-blue-400 hover:underline"
           >

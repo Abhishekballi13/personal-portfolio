@@ -4,15 +4,18 @@ import "react-calendar-heatmap/dist/styles.css"; // Default heatmap styles
 import { format, subYears } from "date-fns";
 import { LEETCODE_URL } from "../../utils/constants";
 import axios from "axios";
+import { Tooltip } from "react-tooltip";
 
 const fetchLeetCodeHeatmap = async (username) => {
     try {
+         //using fetch
         // const response = await fetch(LEETCODE_URL+"/leetcode", {
         //     method: "POST",
         //     headers: { "Content-Type": "application/json" },
         //     body: JSON.stringify({ username }),
         // });
-        
+
+        //better way using axios
         const response = await axios.post(LEETCODE_URL+"/leetcode",{username:username},{
             withCredentials:true,
             headers:{"Content-Type":"application/json"}
@@ -20,6 +23,7 @@ const fetchLeetCodeHeatmap = async (username) => {
 
         // const data = await response.json();
         const data = response?.data;
+
         if (data.data && data.data.matchedUser) {
             return JSON.parse(data.data.matchedUser.submissionCalendar);
         } else {
@@ -65,9 +69,11 @@ const LeetCodeHeatmap = ({ username }) => {
                     return `color-scale-${Math.min(value.count, 4)}`; // Cap at 4 levels
                 }}
                 tooltipDataAttrs={(value) => ({
-                    "data-tip": `${value.date}: ${value.count || 0} submissions`,
+                    "data-tooltip-id": "heatmap-tooltip",
+                    "data-tooltip-content": `${value.count || 0} submissions on ${value.date}`,
                 })}
             />
+            <Tooltip id="heatmap-tooltip" place="top" effect/>
         </div>
         </div>
     );
