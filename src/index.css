@@ -5,3 +5,21 @@
 *{
   scroll-behavior: smooth;
 }
+
+.color-empty {
+  fill: #e0e0e0; /* Light gray for empty days */
+}
+
+/* Different intensity levels (Green Shades) */
+.color-scale-1 {
+  fill: #a7f3d0; /* Light Green */
+}
+.color-scale-2 {
+  fill: #6ee7b7; /* Medium Green */
+}
+.color-scale-3 {
+  fill: #34d399; /* Darker Green */
+}
+.color-scale-4 {
+  fill: #059669; /* Darkest Green */
+}
