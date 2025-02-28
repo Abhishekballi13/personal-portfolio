@@ -74,6 +74,7 @@ const LeetCodeHeatmap = ({ username }) => {
                 })}
             />
             <Tooltip id="heatmap-tooltip" place="top" effect="solid"/>
+            <div className="underline text-blue-700 mt-2">Live Data</div>
         </div>
         </div>
     );
